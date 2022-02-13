@@ -1,6 +1,3 @@
-# Rúben Tavares Garrido
-# 107927
-
 # Devolve o IMC para uma pessoa com peso w e altura h.
 def imc(w, h):
     return w/h**2

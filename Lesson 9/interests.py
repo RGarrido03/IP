@@ -1,6 +1,3 @@
-# Rúben Tavares Garrido
-# 107927
-
 def main():
     A = "reading"
     B = "eating"

@@ -1,6 +1,3 @@
-# Rúben Tavares Garrido
-# 107927
-
 def listContacts(dic):
     print("{:>12s} : {:^22} : {}".format("Número", "Nome", "Morada"))
     for num in dic:

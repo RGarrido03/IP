@@ -1,6 +1,3 @@
-# Rúben Tavares Garrido
-# 107927
-
 from sys import argv
 
 def countLetters(filename):

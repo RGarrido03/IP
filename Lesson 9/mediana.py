@@ -1,6 +1,3 @@
-# Rúben Tavares Garrido
-# 107927
-
 def mediana(lst):
     length = len(lst)
     sorted_lst = sorted(lst)

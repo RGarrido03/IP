@@ -1,6 +1,3 @@
-# Rúben Tavares Garrido
-# 107927
-
 import matplotlib.pyplot as plt
 
 tabela = [

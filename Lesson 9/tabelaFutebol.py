@@ -1,6 +1,3 @@
-# Rúben Tavares Garrido
-# 107927
-
 tabela = [
     ("Rio Ave", 5, 3, 2, 17, 13),
     ("Tondela", 2, 3, 5, 12, 14),
