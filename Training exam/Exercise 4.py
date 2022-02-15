@@ -12,4 +12,4 @@
 def printStocks(stocks):
    for a in stocks:
       valorization = (a[3] - a[2])/a[2] * 100
-      print(f"{a[0]:4s}      {a[1]:19s}{str(round(a[2],2)):>6s}    {str(round(a[3],2)):>6s} 
+      print(f"{a[0]:4s}      {a[1]:19s}{str(round(a[2],2)):>6s}    {str(round(a[3],2)):>6s}   {str(a[4]):>7s}   {str(valorization):>4s}%")
