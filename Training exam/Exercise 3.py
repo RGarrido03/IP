@@ -11,10 +11,11 @@ def load(fname):
    fileobj = open(fname, "r", encoding="UTF-8")
    lst = []
    
-    for line in fileobj:
+   for line in fileobj:
       line_sep = line.strip().split("\t")
       lst += [(line_sep[0], line_sep[1], float(line_sep[2]), float(line_sep[3]), int(line_sep[4]))]
    
+   fileobj.close()
    return lst
 
 # O resto é introduzido pelo CodeCheck.
