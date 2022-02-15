@@ -33,7 +33,7 @@ def printPauta(lst):
    print("Numero", "Nome".center(72), "Nota")   # O número 72 foi só mesmo para passar no CodeCheck eibfiwobdlofwnld
    
    for student in lst:
-      print(f"{str(student[0]):>6s}{student[1].center(72)}{notaFinal(student)}")
+      print(f"{student[0]:>6}{student[1].center(72)}{notaFinal(student)}")
 
 
 # d)
